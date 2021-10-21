@@ -1,0 +1,12 @@
+#include <16f877a.h>
+#fuses HS, NoWDT
+#use delay(clock=12M)
+//=================================
+
+void main()
+{
+   while(TRUE)
+   {
+   
+   }
+}

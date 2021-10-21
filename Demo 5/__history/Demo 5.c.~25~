@@ -1,0 +1,25 @@
+#include <16f877a.h>
+#fuses HS, NoWDT
+#use delay(clock=12M)
+//=================================
+
+void main()
+{
+   while(TRUE)
+   {
+   output_high(pin_B0); // LedR on
+   output_high(pin_B5); // LedG2 on
+   delay_ms(5000);
+   output_high(pin_B0); // LedR off
+   output_low(pin_B5); // LedG2 off
+   output_high(pin_B6); // LedY2 on
+   delay_ms(1000);
+  
+   output_high(pin_B2); // LedG on
+   delay_ms(4000);
+   output_low(pin_B2);  //LedG off
+   output_high(pin_B1); // LedY on
+   delay_ms(1000);
+   output_low(pin_B1);  //LedY off
+   }
+}

@@ -1,0 +1,37 @@
+[PROJECT]
+Target=Demo 5.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.025
+Compiler=PCM
+[Target Data]
+FileList=Demo 5.c
+[Demo 5.c]
+Type=4
+[mru-list]
+1=Demo 5.c
+
+[Opened Files]
+1=Demo 5.c
+2=
+
+[ProjectLog]
+Days=1
+D1=21-10-2021
+D1_L=10
+D1_L1=[55537]Stopped Editing.
+TotalEdit=30
+TotalDebug=0
+D1_E=30
+D1_D=0
+D1_L2=[55707]Project Closed.
+D1_L3=[55746]Project Opened.
+D1_L4=[55751]Project Closed.
+D1_L5=[56140]Project Opened.
+D1_L6=[56186]Started Editing.
+D1_L7=[57243]Stopped Editing.
+D1_L8=[61233]Project Closed.
+D1_L9=[61250]Project Opened.
+D1_L10=[61255]Project Closed.
+[Units]
+Count=1
+1=Demo 5 (main)
