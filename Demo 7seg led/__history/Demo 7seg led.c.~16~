@@ -1,0 +1,27 @@
+#include <16f877a.h>
+#fuses HS, NoWdt
+#use delay(clock = 20M)
+//==============================
+
+void main()
+{
+   set_tris_B(0x00);   //  0b00000000
+   output_B(0x00);
+   while(TRUE)
+   {
+      output_B(0x3F);
+      delay_ms(200);
+      // so 1
+      output_B(0x06);
+      delay_ms(200);
+      // so 2
+      output_B(0x5B);
+      delay_ms(200);
+      // so 3
+      output_B(0x4F);
+      delay_ms(200); 
+      // so 4
+      output_B(0x66);
+      delay_ms(200);
+   }
+}

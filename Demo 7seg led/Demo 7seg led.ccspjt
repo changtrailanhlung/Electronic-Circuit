@@ -1,0 +1,29 @@
+[PROJECT]
+Target=Demo 7seg led.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.025
+Compiler=PCM
+[Target Data]
+FileList=Demo 7seg led.c
+[Demo 7seg led.c]
+Type=4
+[mru-list]
+1=Demo 7seg led.c
+
+[Opened Files]
+1=Demo 7seg led.c
+2=
+[Units]
+Count=1
+1=Demo 7seg led (main)
+
+[ProjectLog]
+Days=1
+D1=21-10-2021
+D1_L=2
+D1_L1=[62402]Stopped Editing.
+TotalEdit=11
+TotalDebug=0
+D1_E=11
+D1_D=0
+D1_L2=[62457]Project Closed.
