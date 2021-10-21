@@ -1,0 +1,3 @@
+#include <16f877a.h>
+#fuses HS
+#define

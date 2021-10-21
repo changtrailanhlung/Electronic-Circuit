@@ -1,0 +1,35 @@
+[PROJECT]
+Target=PIC16f877.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.025
+Compiler=PCM
+[Target Data]
+FileList=PIC16f877.c
+[PIC16f877.c]
+Type=4
+[mru-list]
+1=PIC16f877.c
+
+[Opened Files]
+1=..\PIC16f877_part2\PIC16f877_part2.c
+2=
+3=
+
+[ProjectLog]
+Days=1
+D1=19-10-2021
+D1_L=7
+D1_L1=[62087]Started Editing.
+D1_L2=[62431]Stopped Editing.
+TotalEdit=6
+TotalDebug=0
+D1_E=6
+D1_D=0
+D1_L3=[62431]Project Closed.
+D1_L4=[62445]Project Opened.
+D1_L5=[62480]Project Closed.
+D1_L6=[62481]Project Opened.
+D1_L7=[62521]Project Closed.
+[Units]
+Count=1
+1=PIC16f877 (main)
